@@ -1,0 +1,270 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    body {
+        background:  url(d2l.jpg) no-repeat center fixed;  
+    }
+
+    .logoMAIN {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        padding-top: 5%;
+    }
+    @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .fade-in {
+        opacity:0;  /* make things invisible upon start */
+        -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+
+        -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
+    }
+
+    .fade-in.one {
+        -webkit-animation-delay: 0.7s;
+        -moz-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+    }
+
+    #inputss {
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 12%;
+
+    }
+    #nextbut {
+        width: 100%;
+        height: 50px;
+        background-color: #4caada;
+        border: 0;
+        margin-top: 5%;
+        border-radius: 12px;
+        color: #fff;
+        line-height: 4px;
+        font-size: 20px;
+        font-weight:200;
+        z-index: 3;
+
+    }
+    .intro2 {
+        padding-top: 30%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+
+    .intro {
+        padding-top: 1%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+
+
+
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+    body {
+        background:  url(d2l.jpg) no-repeat center fixed;  
+    }
+
+    .logoMAIN {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        padding-top: 20%;  
+    }
+    @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .fade-in {
+        opacity:0;  /* make things invisible upon start */
+        -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+
+        -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
+    }
+
+    .fade-in.one {
+        -webkit-animation-delay: 0.7s;
+        -moz-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+    }
+
+    #inputss {
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 12%;
+
+    }
+    #nextbut {
+        width: 100%;
+        height: 50px;
+        background-color: #4caada;
+        border: 0;
+        margin-top: 5%;
+        border-radius: 12px;
+        color: #fff;
+        line-height: 4px;
+        font-size: 20px;
+        font-weight:200;
+        z-index: 3;
+
+    }
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 981px) 
+and (max-device-width: 9650px)
+and (orientation: portrait) {
+
+    body {
+        background:  url(d2l.jpg) no-repeat center fixed;  
+    }
+
+    .logoMAIN {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        padding-top: 10%;
+    }
+    @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .fade-in {
+        opacity:0;  /* make things invisible upon start */
+        -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+
+        -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
+    }
+
+    .fade-in.one {
+        -webkit-animation-delay: 0.7s;
+        -moz-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+    }
+
+    #inputss {
+        top: 20%;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 10%;
+
+    }
+    #nextbut {
+        width: 100%;
+        height: 50px;
+        background-color: #4caada;
+        border: 0;
+        margin-top: 5%;
+        border-radius: 12px;
+        color: #fff;
+        line-height: 4px;
+        font-size: 20px;
+        font-weight:200;
+        z-index: 3;
+
+    }
+    .fblogo {
+        width: 9%;
+        float: center;
+
+        opacity: 0.4;
+    }
+
+    .OR {
+        margin-top: 10%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1em;
+        font-weight: 300;
+        opacity: 0.4;
+        float: center;
+        text-align: center;
+        opacity: 0.4;
+    }
+    .intro2 {
+        padding-top: 20%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+
+    .intro {
+        padding-top: 2%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+
+
+
+
+
+}
+

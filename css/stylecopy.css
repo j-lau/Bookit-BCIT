@@ -1,0 +1,754 @@
+body {
+    background:  url(backgrounddark.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.logoMAIN {
+    display: block;
+    margin: 0 auto;
+    width: 7%;
+    padding-top: 8%;
+}
+
+.check {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 8%;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+#inputss {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 12%;
+
+}
+#inputsbooking {
+    width: 80%;
+    /*height: 60%;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+
+}
+#inputsform {
+    width: 80%;
+    /*height: 60%;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5%;
+    padding-bottom: 100px;
+
+}
+.formInput {  
+    padding-bottom: 50px;
+}
+#nextbut {
+    width: 100%;
+    height: 50px;
+    background-color:rgba(193, 214, 66, 0.85);
+    border: 0;
+    margin-top: 5%;
+    border-radius: 12px;
+    color: #fff;
+    line-height: 4px;
+    font-size: 20px;
+    font-weight:200;
+    z-index: 3;
+    outline: none;
+
+}
+#nextbut2 {
+    width: 80%;
+    height: 40px;
+    background: rgba(193, 214, 66, 0.8);
+    border: 0;
+    border-radius: 12px;
+    color: #fff;
+    line-height: 1px;
+    text-align: center;
+    font-size: 1em;
+    font-weight:200;
+    z-index: 3;
+    outline: none;
+
+}
+.intro2 {
+    padding-top: 6%;
+    color:rgba(255, 255, 255, 0.51);
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 200;
+    opacity: 0.4;
+}
+
+.intro {
+    padding-top: 8%;
+    color:rgba(255, 255, 255, 0.51);
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    opacity: 0.4;
+}
+#logotop {
+    z-index: 2;
+    width: 30%;
+}
+
+#header {
+    z-index: 1;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 4%;
+    background-color: #16335a;
+
+}
+.BbySE14Library1stfloor {
+    margin-top: 2%;
+    padding: 4%; 
+}
+.BbySE14Library2ndfloor {
+    margin-top: 2%;
+    padding: 4%; 
+}
+.BbySE14Library3rdfloor {
+    margin-top: 2%;
+    padding: 4%;  
+}
+.BbySW11stfloor  {
+    margin-top: 2%;
+    padding: 4%;  
+}
+.BbySW12ndfloor {
+    margin-top: 2%;
+    padding: 4%;  
+}
+.BbySE23rdfloor {
+    margin-top: 2%;
+    padding: 4%;  
+}
+.ATCLibrary {
+    margin-top: 2%;
+    padding: 4%; 
+}
+
+.box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+
+}
+
+
+.mybar{
+    background: #ffffff;
+    color: #d1d1d1;
+}
+.bottom{
+
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+.blue{
+    color:  #16335a;
+}
+
+.search{
+    margin-top: 17%;
+}
+.maptext {
+    color:#16335a;
+    text-align: center;
+    font-size: 0.96em;
+    font-weight: 200;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.openingtext {
+    color:white;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 0.94em;
+    font-weight: 200;
+    padding: 5%;
+
+}
+
+.profiletext {
+    color:#d1d1d1;
+    position: absolute; 
+    top: 100px; 
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 200;
+
+
+}
+.profiletextsmall {
+    color:black;
+    margin-top: -5%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 200;
+
+
+}
+.profiletextsmall2 {
+    color:#16335a;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+.profiletextsmall3 {
+    color:#16335a;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 200;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+.logout {
+    text-align: right;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.arrow {
+    width:24px;
+    height: auto;
+    margin-right: 0px;
+    float:right;
+}
+#right{ 
+    padding: 0.1%;
+    width: 7%;
+    float: right;
+    z-index: 2;
+    height: auto;
+
+}
+.white{
+    padding: 15%;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.infotext {
+    color:white;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 0.91em;
+    font-weight: 200;
+
+
+}
+.glasses{
+    width: 100%;
+    position: relative; 
+}
+.headingtext{
+    color: white;
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+#outlinebut {
+    width: 80%;
+    height: 40px;
+    border: 2px  rgba(193, 214, 66, 0.8) solid;
+    border-radius: 12px;
+    color: rgba(193, 214, 66, 0.8);
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 1px;
+    text-align: center;
+    font-size: 1em;
+    font-weight:200;
+    z-index: 3;
+    outline: none;
+
+}
+#outlinebutfb {
+    width: 73%;
+    height: 40px;
+    border: 2px rgba(255, 255, 255, 0.24) solid;
+    border-radius: 12px;
+    color:rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 1px;
+    text-align: center;
+    font-size: 0.84em;
+    font-weight:200;
+    z-index: 3;
+    outline: none;
+
+}
+
+#inputssfb {
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+}
+
+#bookingbut {
+    width: 80%;
+    height: 40px;
+    margin-top: 10%;
+    background: rgba(193, 214, 66, 0.8);
+    border: 0;
+    border-radius: 12px;
+    color: #fff;
+    line-height: 1px;
+    text-align: center;
+    font-size: 1em;
+    font-weight:200;
+    z-index: 3;
+    outline: none;
+
+}
+
+
+
+
+/* iphone 5 */
+@media only screen and (min-width: 320px) {
+
+    .logoMAIN {
+        width: 80%;
+        padding-top: 20%;
+    }
+
+    .intro2 {
+        padding-top: 1%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 0.899em;
+        font-weight: 200;
+        opacity: 0.4;
+
+    }
+    .photo{
+        display: block;
+        float:left;
+        width: 55%;
+    }
+
+    .infotext {
+        color:white;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 0.96em;
+        font-weight: 200;
+
+
+    }
+
+
+
+}
+
+
+
+
+/* iphone 6 */
+@media only screen and (min-width: 375px)
+{
+
+    .logoMAIN {
+        width: 90%;
+        padding-top: 20%;
+    }
+    .intro2 {
+        padding-top: 10%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+    .photo{
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        padding-top: 0.1%; 
+        margin-bottom: -9%;
+    }
+
+    #nextbut2 {
+        width: 80%;
+        height: 40px;
+        background: rgba(193, 214, 66, 0.8);
+        border: 0;
+        border-radius: 12px;
+        color: #fff;
+        line-height: 1px;
+        text-align: center;
+        font-size: 1em;
+        font-weight:200;
+        z-index: 3;
+        outline: none;
+
+
+    }
+    .profiletext {
+        color:white;
+
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: 200;
+
+
+    }
+    .profiletextsmall {
+        color:white;
+        margin-top: -5%;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+
+
+    }
+    .openingtext {
+        color:white;
+        margin-top: 4%;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 200;
+        padding: 5%;
+
+    }
+    .profiletextsmall2 {
+        color:#16335a;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 200;
+        padding-left: 5%;
+        padding-right: 5%;
+
+
+    }
+
+}
+
+
+/* ipad mini */
+@media only screen and (min-width: 768px)
+{
+
+    .logoMAIN {
+        width: 60%;
+        padding-top: 15%;
+    }
+    #outlinebutfb {
+    width:50%;
+    height: 50px;
+    border: 2px rgba(255, 255, 255, 0.24) solid;
+    border-radius: 12px;
+    color:rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 1px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight:200;
+    z-index: 3;
+ 
+
+    }
+
+    .intro2 {
+        padding-top: 17%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+    #nextbut {
+        width: 50%;
+        height: 60px;
+        font-size: 1.4em;
+        outline:none;
+
+    }
+    .openingtext{
+        font-size: 2em;
+    }
+    input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+
+        height: 3.8rem;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.4rem;
+    }
+
+    #logotop {
+        z-index: 2;
+        height: auto;
+        width: 20%;
+    }
+
+    #header {
+        z-index: 1;
+        top:0;
+        left:0;
+        width:100%;
+        padding: 4%;
+        background-color: #16335a;
+
+    }
+    .BbySE14Library1stfloor {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BbySE14Library2ndfloor {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .BbySE14Library3rdfloor {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .BbySW11stfloor  {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .BbySW12ndfloor {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .BbySE23rdfloor {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .ATCLibrary {
+        margin-top: 2%;
+        padding: 4%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+
+    }
+
+
+    .mybar{
+        background: #ffffff;
+        color: #d1d1d1;
+    }
+
+    .bottom{
+
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .blue{
+        color:  #16335a;
+    }
+
+    select{
+        width: 50%;
+        left: 26%;
+        right: 50%;
+        font-size: 1.5em;
+        height: 3.3125rem;
+
+    }
+    .maptext {
+        color:white;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 200;
+        padding-bottom: 5%;
+
+    }
+
+    .photo{
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 0.1%; 
+        margin-bottom: -9%;
+    }
+
+    #nextbut2 {
+        width: 70%;
+        height: 50px;
+        background: rgba(193, 214, 66, 0.8);
+        border: 0;
+        border-radius: 12px;
+        color: #fff;
+        line-height: 1px;
+        text-align: center;
+        font-size: 1em;
+        font-weight:200;
+        z-index: 3;
+
+
+    }
+    #outlinebut {
+        width: 70%;
+        height: 40px;
+        border: 2px  rgba(193, 214, 66, 0.8) solid;
+        border-radius: 12px;
+        color: rgba(193, 214, 66, 0.8);
+        background-color: rgba(255, 255, 255, 0);
+        line-height: 1px;
+        text-align: center;
+        font-size: 1em;
+        font-weight:200;
+        z-index: 3;
+
+
+    }
+    .profiletext {
+        color:white;
+
+        text-align: center;
+        font-size: 2em;
+        font-weight: 200;
+
+
+    }
+    .profiletextsmall {
+        color:white;
+        margin-top: -2%;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 200;
+
+
+    }
+    .logout {
+        text-align: right;
+        font-size: 19px;
+        color: #fff;
+        margin-right: 25px;
+        margin-top: 10px;
+        font-weight: 200;
+
+    }
+
+    .arrow {
+        width:28px;
+        height: auto;
+        margin-right: 0px;
+        float:right;
+    }
+    .infotext {
+        color:white;
+        padding-top: 10%;
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: 200;
+
+
+    }
+    .intro {
+        padding-top: 10%;
+        color:rgba(255, 255, 255, 0.51);
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: 200;
+        opacity: 0.4;
+    }
+    .profiletextsmall2 {
+        color:#16335a;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: 200;
+        padding-left: 15%;
+        padding-right: 15%;
+
+
+    }
+
+}
+
+
+
+
+
+
+
